@@ -47,8 +47,8 @@ body header nav ul li button {
 }
 
 body header nav ul li button img{
-    width: 30px;
-    padding: .2rem;
+    width: 50px;
+    padding: .7rem;
 }
 
 body main {
@@ -59,6 +59,8 @@ body main {
 
     display: flex;
     flex-direction: column;
+
+    min-height: 90vh;
 }
 
 body main .title {
@@ -105,3 +107,51 @@ body main .PhoneBook .contact button {
 body main .PhoneBook .contact button a img{
     width: 25px;
 }
+
+body footer {
+    min-height: 20vh;
+}
+
+body footer .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body footer .info > img {
+    width: 100px;
+    margin: 3rem;
+}
+
+body footer .info .devs {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+body footer .info .devs .dev{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: .4rem;
+}
+
+body footer .info .devs .dev img{
+    width: 45px;
+    padding: 0.5rem;
+}
+
+body footer hr {
+    opacity: 0.2;
+    margin: 0 .5rem;
+}
+
+body footer .copyright {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
