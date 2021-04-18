@@ -26,6 +26,11 @@ body header h1 {
     margin: .5rem 0 0 0;
 }
 
+body header nav {
+    overflow: auto;
+    white-space: nowrap;
+}
+
 body header nav ul{
     display: flex;
     flex-direction: row;
@@ -36,19 +41,23 @@ body header nav ul{
 }
 
 body header nav ul li {
-    margin: .4rem;
+    margin: .2rem;
 }
 
 body header nav ul li button {
-    padding: .3rem;
+    padding: .1rem;
 
     border: none;
     border-radius: 8px;
 }
 
+body header nav ul li button:first-child {
+    
+}
+
 body header nav ul li button img{
     width: 50px;
-    padding: .7rem;
+    padding: .8rem;
 }
 
 body main {
@@ -109,7 +118,7 @@ body main .PhoneBook .contact button a img{
 }
 
 body footer {
-    min-height: 10vh;
+    min-height: 50vh;
 }
 
 body footer .info {
@@ -120,7 +129,7 @@ body footer .info {
 }
 
 body footer .info > img {
-    width: 110px;
+    width: 100px;
     margin: 3rem;
 }
 
