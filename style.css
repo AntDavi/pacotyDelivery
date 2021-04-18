@@ -51,10 +51,6 @@ body header nav ul li button {
     border-radius: 8px;
 }
 
-body header nav ul li button:first-child {
-    
-}
-
 body header nav ul li button img{
     width: 50px;
     padding: .8rem;
@@ -118,7 +114,7 @@ body main .PhoneBook .contact button a img{
 }
 
 body footer {
-    min-height: 50vh;
+    min-height: 10vh;
 }
 
 body footer .info {
@@ -149,7 +145,7 @@ body footer .info .devs .dev{
 }
 
 body footer .info .devs .dev img{
-    width: 45px;
+    width: 40px;
     padding: 0.5rem;
 }
 
@@ -161,6 +157,8 @@ body footer hr {
 body footer .copyright {
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
+
+    font-size: 0.8rem;
 }
 
