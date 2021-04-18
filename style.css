@@ -109,7 +109,7 @@ body main .PhoneBook .contact button a img{
 }
 
 body footer {
-    min-height: 20vh;
+    min-height: 10vh;
 }
 
 body footer .info {
@@ -120,7 +120,7 @@ body footer .info {
 }
 
 body footer .info > img {
-    width: 100px;
+    width: 110px;
     margin: 3rem;
 }
 
