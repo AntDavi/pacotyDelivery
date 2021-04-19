@@ -26,11 +26,6 @@ body header h1 {
     margin: .5rem 0 0 0;
 }
 
-body header nav {
-    overflow: auto;
-    white-space: nowrap;
-}
-
 body header nav ul{
     display: flex;
     flex-direction: row;
@@ -41,21 +36,19 @@ body header nav ul{
 }
 
 body header nav ul li {
-    margin: .2rem;
+    margin: .4rem;
 }
 
-body header nav ul li a button{
-    background-color: white;
-    padding: .5rem;
-    border-radius: 10px;
+body header nav ul li button {
+    padding: .3rem;
+
     border: none;
-    margin: 5px;
+    border-radius: 8px;
 }
 
-
-body header nav ul li a button img{
-    width: 40px;
-    padding: .5rem;
+body header nav ul li button img{
+    width: 50px;
+    padding: .7rem;
 }
 
 body main {
@@ -67,7 +60,7 @@ body main {
     display: flex;
     flex-direction: column;
 
-    min-height: 50vh;
+    min-height: 90vh;
 }
 
 body main .title {
@@ -116,7 +109,7 @@ body main .PhoneBook .contact button a img{
 }
 
 body footer {
-    min-height: 10vh;
+    min-height: 20vh;
 }
 
 body footer .info {
@@ -147,7 +140,7 @@ body footer .info .devs .dev{
 }
 
 body footer .info .devs .dev img{
-    width: 40px;
+    width: 45px;
     padding: 0.5rem;
 }
 
@@ -159,8 +152,6 @@ body footer hr {
 body footer .copyright {
     color: white;
     text-align: center;
-    padding: 0.5rem;
-
-    font-size: 0.8rem;
+    padding: 1rem;
 }
 
