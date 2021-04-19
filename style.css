@@ -44,16 +44,18 @@ body header nav ul li {
     margin: .2rem;
 }
 
-body header nav ul li button {
-    padding: .1rem;
-
+body header nav ul li a button{
+    background-color: white;
+    padding: .5rem;
+    border-radius: 10px;
     border: none;
-    border-radius: 8px;
+    margin: 5px;
 }
 
-body header nav ul li button img{
-    width: 50px;
-    padding: .8rem;
+
+body header nav ul li a button img{
+    width: 40px;
+    padding: .5rem;
 }
 
 body main {
