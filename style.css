@@ -24,12 +24,13 @@ a:active {
 }
 
 :root {
-    --bg-blue: #0a369d;
+    --header-blue: #4E72C6;
+    --bt--blue: #BDDAEB;
 }
 
 body {
     font-family: 'Quicksand'; 
-    background-color: var(--bg-blue);
+    background-color: var(--header-blue);
 }
 
 body header h1 {
