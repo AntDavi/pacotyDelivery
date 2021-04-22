@@ -264,7 +264,7 @@ const supermercado = [
 ]
 
 app.get("/", function(req, res) {
-    res.render("pages/saude", {
+    res.render("pages/index", {
         contacts: saude,
     })
 })
