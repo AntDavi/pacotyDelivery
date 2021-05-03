@@ -7,11 +7,12 @@
 }
 
 :root {
-    --bg-blue: #4E72C6;
+    --bg-blue: #0a369d;
 }
 
 body {
-    font-family: 'Quicksand';
+    font-family: 'Quicksand'; 
+    background-color: var(--bg-blue);
 }
 
 body header h1 {
@@ -19,27 +20,10 @@ body header h1 {
 
     text-align: center;
 
-    font-size: 1.9rem;
+    font-size: 1.5rem;
 
-    padding: 20px;
-
-}
-
-body header {
-    border-radius: 0 0 20px 20px;
-    background-color: var(--bg-blue);
-    height: 100;
-}
-
-body header nav {
-    padding: 0 0 3rem 0;
-}
-
-body header nav ul {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    padding: 0 0 3rem 0;
+    /* margin-top: 0.5rem; */
+    margin: .5rem 0 0 0;
 }
 
 body header nav ul{
@@ -52,37 +36,36 @@ body header nav ul{
 }
 
 body header nav ul li {
-    margin: .2rem;
+    margin: .4rem;
 }
 
-body header nav ul li a button{
-    background-color: white;
-    padding: .5rem;
-    border-radius: 10px;
+body header nav ul li button {
+    padding: .3rem;
+
     border: none;
-    margin: 5px;
+    border-radius: 8px;
 }
 
-
-body header nav ul li a button img{
-    width: 40px;
-    padding: .5rem;
+body header nav ul li button img{
+    width: 50px;
+    padding: .7rem;
 }
 
 body main {
     background-color: white;
 
+    border-radius: 30px 30px 0 0;
     padding: 1rem;
 
     display: flex;
     flex-direction: column;
 
-    min-height: 50vh;
+    min-height: 90vh;
 }
 
 body main .title {
     margin: 0 0 .5rem .2rem;
-    font-size: 1.2rem;
+    font-size: .8rem;
 }
 
 body main .PhoneBook {
@@ -110,11 +93,11 @@ body main .PhoneBook .contact p{
     margin: 0 0 0 .5rem;
 
     font-family: 'Dosis';
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 
 body main .PhoneBook .contact button {
-    background-color: #BDDAEB;
+    background-color: #CFDEE7;
     border: none;
     border-radius: 10px;
     padding: .5rem;
@@ -126,9 +109,7 @@ body main .PhoneBook .contact button a img{
 }
 
 body footer {
-    min-height: 10vh;
-
-    background-color: var(--bg-blue);
+    min-height: 20vh;
 }
 
 body footer .info {
@@ -139,18 +120,14 @@ body footer .info {
 }
 
 body footer .info > img {
-    width: 70px;
-    margin: 1rem 3rem;
+    width: 100px;
+    margin: 3rem;
 }
 
 body footer .info .devs {
     display: flex;
     flex-direction: column;
-    margin: 1rem 3rem;
-}
-
-body footer .info .devs p {
-    margin: 0 10px 0 0;
+    margin: 40px;
 }
 
 body footer .info .devs .dev{
@@ -163,7 +140,7 @@ body footer .info .devs .dev{
 }
 
 body footer .info .devs .dev img{
-    width: 40px;
+    width: 45px;
     padding: 0.5rem;
 }
 
@@ -175,7 +152,6 @@ body footer hr {
 body footer .copyright {
     color: white;
     text-align: center;
-    padding: 0.5rem;
-
-    font-size: 0.7rem;
+    padding: 1rem;
 }
+
