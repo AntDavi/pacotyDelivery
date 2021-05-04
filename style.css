@@ -35,11 +35,6 @@ body header nav {
     padding: 0 0 3rem 0;
 }
 
-body header nav ul {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
 
 body header nav ul{
     display: flex;
